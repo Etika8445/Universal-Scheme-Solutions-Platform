@@ -12,7 +12,7 @@ function createCard(Detail) {
       key={Detail.id}
       schemeName={Detail.schemeName}
       deadline={Detail.deadline}
-      eligibilty={Detail.eligibilty}
+      eligibilty={truncate(Detail.eligibilty, 60)}
       content={truncate(Detail.content, 300)}
     />
   );
