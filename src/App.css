@@ -4,14 +4,19 @@
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
 }
+
 /*homecard*/
 .card-homecard{
   background-color: white;
   width:370px;
-  height:430px;
+  height:445px;
   padding-left: 15px;
   margin-bottom:20px;
   margin-right: 15px;
+}
+.card-homecard:hover{
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  transition: ease-in-out 0.3s;
 }
 .topic-homecard{
   margin: 0px;
@@ -23,7 +28,7 @@
 }
 .img-homecard{
   padding-top: 0px;
-  width:350px;
+  width:342px;
   height:290px;
 }
 .scheme-homecard{
@@ -38,7 +43,6 @@
   font-weight: 700;
 }
 .sub-homecard{
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   margin-top:10px;
   font-size: 23px;
   font-weight: 700;
@@ -47,20 +51,22 @@
   color: rgb(45,152,152);
   font-size: 23px;
   font-weight: 500;
-  margin-top:13px;
+  margin-top:23px;
+  border:none;
+  background-color: white;
 }
+
 /* homepage*/
 .banner-homepage{
   width:100%;
   height: 350px;
-  background-image: url("../src/shared/components/head-banner.jpg");
+  background-image: url("D:\schemes\scheme\src\shared\components\head-banner.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
 }
 .slogan-homepage{
   display: flex;
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   height:100px;
   width: 700px;
   justify-content: center;
@@ -70,7 +76,6 @@
   font-size: 30px;
 }
 .head-homepage{
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 60px;
   font-weight: 900;
   display: flex;
@@ -81,7 +86,6 @@
   padding-bottom:20px;
 }
 .subhead-homepage{
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   color: rgb(10, 13, 13);
   background-color: rgb(65, 211, 211);
   margin-left: 23px;
@@ -94,6 +98,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
 /* Contact.jsx*/
 .header-contact{
   background-color: rgb(45,152,152);
@@ -106,52 +111,151 @@
 .inquiries-contact{
   padding: 30px;
   padding-bottom: 20px;
-  font-size: medium;
+  font-size: 25px;
 }
 .form-contact{
   padding-left: 30px;
 }
-.form-contact p{
+.form-contact label{
   display: flex;
-  font-size: 20px;
+  font-size: 23px;
   padding-bottom: 5px;
+  padding-top: 5px;
 }
 .form-contact input{
-  height: 25px;
+  height: 35px;
   width: 500px;
-  font-size: medium;
+  font-size: 21px;
 }
 .form-contact textarea{
-  height: 200px;
-  width: 800px;
-  font-size: medium;
+  height: 100px;
+  width: 700px;
+  font-size: 21px;
   counter-increment: none;
-}
-.response-contact{
-  padding-left: 30px;
 }
 .button-contact{
   background-color: rgb(45,152,152);
   height: 40px;
   width: 90px;
   margin-top: 20px;
-  margin-left:30px;
   font-size: 25px;
   border-radius: 4px;
   margin-bottom: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
+/* Highligths */
+.layout-highligths{
+  height:400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sublay-highligths{
+  border:2px solid black;
+  height:300px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-highligths{
+  margin-left:30px;
+}
+.sublay-highligths h2{
+  margin-top:7px;
+  margin-left: 2px;
+  color: rgb(54, 151, 151);
+}
+.layout-highligths ul{
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.layout-highligths ul li{
+  font-size: 120%;
+  color: black;
+}
+.layout-highligths ul li:hover{
+  color: #193aab;
+}
 
+/* Feedback.jsx */
+.contain-feedback{
+  height:625px;
+  width: 100%;
+  padding: 3%;
+  border-top: 2px solid black;
+  padding-top: 2%;
+}
+.contain-feedback h1{
+  font-size: 40px;
+}
+.contain-feedback p{
+  font-size: 20px;
+}
+.form-feedback{
+  margin-top: 15px;
+}
+.form-feedback label{
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.form-feedback input{
+  height: 30px;
+  width: 500px;
+  font-size:21px;
+}
+.form-feedback textarea{
+  height: 60px;
+  width: 500px;
+  font-size: 21px;
+}
 
+/* Ngocard.jsx */
+.card-ngocard{
+  height:400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45,152,152);
+  border-top: 2px solid black;
+  /* border-bottom: 2px solid black; */
+}
+.box-ngocard{
+  height:300px;
+  width: 700px;
+  margin-left: 30px; 
+}
+.logo-ngocard{
+  height:300px;
+  width: 700px;
+   object-fit: fill;
+   object-position:-20%;
+   margin-left: 30px;
+}
+.top-ngocard{
+  font-size: 30px;
+  margin-left: 5px;
+  font-weight: 150;
 
-
-
-
-
-
-
-
-
+}
+.line-ngocard{
+  margin-top: 25px;
+  font-size: 20px;
+}
+.see-ngocard{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.go-ngocard{
+  font-size: 20px;
+  color: black;
+}
 
 
 
@@ -241,6 +345,10 @@ a{
 } */
 
 /* BODY */
+.boby1{
+  padding-bottom: 1000px;
+  border-bottom: 2px solid black;
+}
 .body-top{
   margin-top: 40px;
   margin-left: 40px;
@@ -351,6 +459,7 @@ a{
 .detail{
   display: flex;
   width: 445px;
+  width: 446px;
   bottom: 70px;
   position: absolute;
   background-color: rgb(213, 253, 253);

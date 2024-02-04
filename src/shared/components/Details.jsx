@@ -1,6 +1,6 @@
 const Details = [
     {
-      // eduaction
+      // education
       id: 1,
       name:"Education",
       schemeName: "New India Literacy Programme",
