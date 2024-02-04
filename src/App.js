@@ -4,17 +4,15 @@ import {BrowserRouter} from 'react-router-dom';
 import Body from "./shared/components/Body.jsx"
 import Footer from "./shared/components/Footer.jsx"
 import "./App.css"
-import Scheme from "./shared/pages/Scheme.jsx";
+// import Scheme from "./shared/pages/Scheme.jsx";
 
 function App() {
   return (
     <>
       <BrowserRouter>
            <Header />
-      </BrowserRouter>
-      <Body />
-      <BrowserRouter>
-           <Footer />
+            {/* <Body /> */}
+           {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

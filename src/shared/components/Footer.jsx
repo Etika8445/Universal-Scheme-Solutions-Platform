@@ -1,7 +1,5 @@
 import React from 'react';
-import { NavLink, Navigate, Route, Routes } from 'react-router-dom';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
+import {NavLink} from 'react-router-dom';
 const d = new Date();
 let year = d.getFullYear();
 function Footer() {
@@ -27,12 +25,6 @@ function Footer() {
             </div>
         </div>
     </footer>
-    <Routes>
-        {/* <Route path='/' element={<Homepage/>}/>  */}
-        <Route path='/about' element={<About />}/> 
-        <Route path='/contact' element={<Contact/>}/> 
-        <Route path='*' element={<Navigate replace to='/'/>}/>
-    </Routes>
     </>
   )
 }
