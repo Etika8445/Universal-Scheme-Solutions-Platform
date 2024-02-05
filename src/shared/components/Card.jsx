@@ -19,8 +19,9 @@ function Card(props) {
         </div>
       </div>
       <div className="descp">
-          <button className="btn">Know More</button>
-        </div>
+        <a href={props.url} className="btn" target="_blank">Know More</a>
+        <a href={props.videoUrl} className="btn" target="_blank">Visual Guide</a>
+      </div>
     </div>
   )
 }
