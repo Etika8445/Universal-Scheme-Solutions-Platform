@@ -5,6 +5,8 @@ import Highligths from '../components/Highligths';
 import Ngocard from '../components/Ngocard';
 import { Feedback } from '../components/Feedback';
 const Homepage = () => {
+
+
   return (
     <>
     <div className='banner-homepage'>
@@ -15,7 +17,6 @@ const Homepage = () => {
       </div>
     </div>
     <h1 className='head-homepage'>Find Your Schemes </h1>
-    {/* <h2 className='subhead-homepage'>Categories</h2> */}
     <div className='layout-homepage'>
       {Sectorname.map((item,key) =>{
         return <Homecard key={key} name={item.category} scheme={item.schemes} img={item.image}/>

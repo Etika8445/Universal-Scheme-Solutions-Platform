@@ -12,7 +12,7 @@ const Homecard = ({key, name,scheme, img}) => {
         <div className='imgcover-homecard'><img  className='img-homecard' src={img} alt="category"/></div>
         <div className='scheme-homecard'>
             <p className='p-homecard'>{scheme}</p>
-            <p className='sub-homecard'>+ schemes</p >
+            <p className='sub-homecard'>+ schemes</p>
         </div>
         <button  className='more-homecard' onClick={()=>update({name})}>See more</button> 
     </div>

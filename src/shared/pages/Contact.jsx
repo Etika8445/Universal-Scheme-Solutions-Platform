@@ -21,7 +21,7 @@ const Contact = () => {
       <p>How may we help you?</p>
       <textarea placeholder='Help me understand how I can help you?'/>
     </div> 
-    <p className='response-contact'>*Less than 12hours, we will response to your question </p>     
+    <p className='response-contact'>*Less than 12hours, we will respond to your question </p>     
     <button className='button-contact'>Submit</button>
     </>
   )

@@ -34,6 +34,8 @@ function Body() {
               deadline={Detail.deadline}
               eligibilty={truncate(Detail.eligibilty,45)}
               content={truncate(Detail.content, 300)}
+              url={Detail.url}
+              videoUrl={Detail.videoUrl}
             />
           )})}  
       </div>
