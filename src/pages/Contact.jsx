@@ -20,8 +20,8 @@ const Contact = () => {
       <label>Phone Number</label>
       <input type="phone number" placeholder="Enter Phone Number"/>
       <label>How may we help you?</label>
-      <textarea placeholder='Help me understand how I can help you?'required/>
-      <p>*Less than 12hours, we will response to your question </p>     
+      <textarea type='text' required/>
+      <p>*Less than 12hours, we will respond to your question </p>     
       <button className='button-contact'>Submit</button>
     </form> 
     <Ngocard/>

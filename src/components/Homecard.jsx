@@ -9,7 +9,7 @@ const Homecard = ({key, name,scheme, img}) => {
     <>
     <div className='card-homecard'>
         <p className='topic-homecard'>{name}</p>
-        <img  className='img-homecard' src={img} alt="category"/>
+        <div className='imgcover-homecard'><img  className='img-homecard' src={img} alt="category"/></div>
         <div className='scheme-homecard'>
             <p className='p-homecard'>{scheme}</p>
             <p className='sub-homecard'>+ schemes</p>

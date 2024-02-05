@@ -11,9 +11,9 @@ const Homepage = () => {
     <>
     <div className='banner-homepage'>
       <div className='slogan-homepage'>
-        <h3 style={{margin:0}}>Your One-Stop for</h3> 
-        <h1 style={{margin:0}}>Government and Private</h1>
-        <h2 style={{margin:0}}>Schemes</h2>
+        <div className='first-homepage' style={{margin:0}}>Your One-Stop for</div> 
+        <div className='second-homepage' style={{margin:0}}>Government and Private</div>
+        <div className='third-homepage' style={{margin:0}}>Schemes</div>
       </div>
     </div>
     <h1 className='head-homepage'>Find Your Schemes </h1>
