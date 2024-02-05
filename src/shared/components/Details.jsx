@@ -813,6 +813,386 @@ const Details = [
       url:"https://naturalfarming.dac.gov.in/",
       videoUrl:"https://youtu.be/gtRYr2VAhuo?si=aIHlpLOBEoNquDCC"
      },
+     {
+      id : 80, 
+      name: "Health and Wellness",
+      schemeName: "Ayushman Bharat Yojana (ABY)",
+      deadline: "42 days left",
+      eligibilty: "BPL families",
+      content: "Provides cashless cover for secondary and tertiary hospitalization up to ₹5 lakh per family per year. (ABY has two components: Health and Wellness Centres (HWCs) for primary care and Pradhan Mantri Jan Arogya Yojana (PM-JAY) for hospitalization cover)",
+      url: "https://abdm.gov.in/",
+      videoUrl: "https://youtu.be/aaFPgOObAE8?si=fIXVtcNhogsBP4c2"
+  },
+  {
+      id : 81, 
+      name: "Health and Wellness",
+      schemeName: "Delhi Arogya Nidhi",
+      deadline: "Always Open",
+      eligibilty: "Should have a National Food Security Card",
+      content: "The Delhi Arogya Nidhi (DAN) is a scheme implemented by the Directorate General of Health Services to provide financial assistance of up to ₹1.5 lacs to needy patients who have National Food Security Cards for treatment of diseases in Government hospitals only.",
+      url: "https://dgehs.delhi.gov.in/dghs/delhi-arogya-nidhi",
+      videoUrl: "https://www.youtube.com/watch?v=669R3DpQZRg&pp=ygUaZGVsaGkgYXJvZ3lhIG5pZGhpIHByb2Nlc3M%3D"
+  },
+  {
+      id : 82, 
+      name: "Health and Wellness",
+      schemeName: "Pradhan Mantri Suraksha Bima Yojana",
+      deadline: "Always Open",
+      eligibilty: "18-70 years old bank account holders with RuPay/Debit card",
+      content: "Provides accidental death and disability cover of ₹2 lakh for ₹12 per year.",
+      url: "https://www.bhartiaxa.com/customer-service-login/",
+      videoUrl: "https://www.youtube.com/watch?v=dS98NK2cgo0&pp=ygUjUHJhZGhhbiBNYW50cmkgU3VyYWtzaGEgQmltYSBZb2phbmE%3D"
+  },
+  {
+      id : 83, 
+      name: "Health and Wellness",
+      schemeName: "Aam Aadmi Bima Yojana",
+      deadline: "Till October 2024",
+      eligibilty: "Residents of Delhi aged 18-59 years",
+      content: "Provides accidental death and disability cover of ₹10 lakh for ₹200 per year.",
+      url: "https://pradhanmantriyojana.co.in/aam-aadmi-swasthya-bima-delhi/",
+      videoUrl: "https://www.youtube.com/watch?v=QS8o-YthZcM&pp=ygUVQWFtIEFhZG1pIEJpbWEgWW9qYW5h"
+  },
+  {
+      id : 84, 
+      name: "Health and Wellness",
+      schemeName: "Central Government Health Scheme",
+      deadline: "Always Open",
+      eligibilty: "Central government employees and pensioners",
+      content: "Provides cashless and reimbursement medical facilities for central government employees and pensioners.",
+      url: "https://cghs.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=72Bvn-aBHiI&pp=ygUhQ2VudHJhbCBHb3Zlcm5tZW50IEhlYWx0aCBTY2hlbWUg"
+  },
+  {
+      id : 85, 
+      name: "Health and Wellness",
+      schemeName: "Employees' State Insurance Scheme",
+      deadline: "Always Open",
+      eligibilty: "Employees covered under the ESI Act, 1948",
+      content: "Provides medical and cash benefits to employees earning up to ₹21,000 per month.",
+      url: "https://www.esic.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=PXOXwCAHKug&pp=ygUhRW1wbG95ZWVzJyBTdGF0ZSBJbnN1cmFuY2UgU2NoZW1l"
+  },
+  {
+      id : 86, 
+      name: "Health and Wellness",
+      schemeName: "Rashtriya Swasthya Bima Yojana",
+      deadline: "Always Open",
+      eligibilty: "BPL families",
+      content: " Provides cashless cover for hospitalization up to ₹30,000 per family per year.",
+      url: "https://www.india.gov.in/spotlight/rashtriya-swasthya-bima-yojana",
+      videoUrl: "https://www.youtube.com/watch?v=geaCwpXBqBk&pp=ygUeUmFzaHRyaXlhIFN3YXN0aHlhIEJpbWEgWW9qYW5h"
+  },
+  {
+      id : 87, 
+      name: "Health and Wellness",
+      schemeName: "Pradhan Mantri Swasthya Suraksha Yojana",
+      deadline: "Always Open",
+      eligibilty: "Open to all",
+      content: "Upgrading medical infrastructure and setting up AIIMS across India.",
+      url: "https://pmssy.mohfw.gov.in/index1.php?lang=1&level=1&sublinkid=81&lid=127&theme=Cream",
+      videoUrl: "https://www.youtube.com/watch?v=NVGkxEUU9EI&pp=ygUoUHJhZGhhbiBNYW50cmkgU3dhc3RoeWEgU3VyYWtzaGEgWW9qYW5hIA%3D%3D"
+  },
+  {
+      id : 88, 
+      name: "Health and Wellness",
+      schemeName: "HDFC ERGO Health Insurance",
+      deadline: "Always Open",
+      eligibilty: "Varies based on chosen plan",
+      content: "Offers various health insurance plans with critical illness and maternity benefits.",
+      url: "https://www.hdfcergo.com/health-insurance",
+      videoUrl: "https://www.youtube.com/watch?v=w3E5q-eEvOM&pp=ygUgQXBvbGxvIE11bmljaCBPcHRpbWEgSGVhbHRoIFBsYW4%3D"
+  },
+  {
+      id : 89, 
+      name: "Health and Wellness",
+      schemeName: "Cigna TTK Health Insurance",
+      deadline: "Always Open",
+      eligibilty: "Varies based on chosen plan.",
+      content: "Offers comprehensive health insurance plans with international coverage options",
+      url: "https://www.manipalcigna.com/hospitalization-cover/hospitalisation-plan-ph",
+      videoUrl: "https://www.youtube.com/watch?v=iM-kmMy0te0&pp=ygUaY2lnbmEgdHRrIGhlYWx0aCBpbnN1cmFuY2U%3D"
+  },
+  {
+      id : 90, 
+      name: "International Affairs",
+      schemeName: "Indian Council for Cultural Relations (ICCR) Scholarship Programme",
+      deadline: "Varies on scholarship type.",
+      eligibilty: "Foreign nationals with valid passports and required academic qualifications.",
+      content: "Provides financial assistance to international students for pursuing higher education in India.",
+      url: "https://a2ascholarships.iccr.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=33RGctj9oKA&pp=ygVCSW5kaWFuIENvdW5jaWwgZm9yIEN1bHR1cmFsIFJlbGF0aW9ucyAoSUNDUikgU2Nob2xhcnNoaXAgUHJvZ3JhbW1l"
+  },
+  {
+      id : 91, 
+      name: "International Affairs",
+      schemeName: "Know India Programme",
+      deadline: "April and October",
+      eligibilty: "Young people aged 18-30 from countries with diplomatic relations with India.",
+      content: "Familiarizes overseas youth with Indian culture and heritage through short-term visits.",
+      url: "https://kip.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=aN-GZ5Kj6JA&pp=ygUeYWxsIGFib3V0IEtub3cgSW5kaWEgUHJvZ3JhbW1l"
+  },
+  {
+      id : 92, 
+      name: "International Affairs",
+      schemeName: "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+      deadline: "Always Open",
+      eligibilty: "Overseas Indians with valid PIO/OCI cards.",
+      content: "Offers cashless and inpatient medical care services to overseas Indians holding PIO/OCI cards.",
+      url: "https://nha.gov.in/PM-JAY",
+      videoUrl: "https://www.youtube.com/watch?v=RYsPky89Bss&pp=ygUyQXl1c2htYW4gQmhhcmF0IC0gUHJhZGhhbiBNYW50cmkgSmFuIEFyb2d5YSBZb2phbmE%3D"
+  },
+  {
+      id : 93, 
+      name: "International Affairs",
+      schemeName: "Indian Technical and Economic Cooperation (ITEC) Programme",
+      deadline: "Varies depending on the training program.",
+      eligibilty: "Government officials from partner countries nominated by their respective governments.",
+      content: "Provides training and capacity-building programs for government officials from developing countries.",
+      url: "https://www.itecgoi.in/",
+      videoUrl: "https://www.youtube.com/watch?v=HPyfN41RPsg&pp=ygVRZGV0YWlscyBhYm91dCBJbmRpYW4gVGVjaG5pY2FsIGFuZCBFY29ub21pYyBDb29wZXJhdGlvbiAoSVRFQykgUHJvZ3JhbW1lIGluIGhpbmRp"
+  },
+  {
+      id : 94, 
+      name: "International Affairs",
+      schemeName: "Maitri Scholarships Scheme",
+      deadline: "July to August",
+      eligibilty: "Children of Indian workers in Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates",
+      content: "Offers scholarships to children of Indian workers in select Gulf countries for professional courses in India.",
+      url: "https://nvshq.org/scholarship/maitri-scholarship/",
+      videoUrl: "https://www.youtube.com/watch?v=8QQNhdrxsOU&pp=ygUaTWFpdHJpIFNjaG9sYXJzaGlwcyBTY2hlbWU%3D"
+  },
+  {
+      id : 95, 
+      name: "International Affairs",
+      schemeName: "Prakash Bharti Scholarship Scheme",
+      deadline: "January to February",
+      eligibilty: "Children of PIO and OCI cardholders.",
+      content: " Offers scholarships to children of Indian diaspora communities for pursuing higher education in India.",
+      url: "https://spdcindia.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=kUiLGPBUynw&pp=ygUyU2Nob2xhcnNoaXAgUHJvZ3JhbW1lIGZvciBEaWFzcG9yYSBDaGlsZHJlbiAoU1BEQyk%3D"
+  },
+  {
+      id : 96, 
+      name: "International Affairs",
+      schemeName: "Jawaharlal Nehru Scholarship Scheme",
+      deadline: "February to March",
+      eligibilty: "Nationals of select countries with whom India has cultural exchange agreements.",
+      content: " Provides financial assistance to foreign students for pursuing higher studies in India.",
+      url: "https://www.jnmf.in/sform.html",
+      videoUrl: "https://www.youtube.com/watch?v=XlWRhRnlwnU&pp=ygUjSmF3YWhhcmxhbCBOZWhydSBTY2hvbGFyc2hpcCBTY2hlbWU%3D"
+  },
+  {
+      id : 97, 
+      name: "International Affairs",
+      schemeName: "Himalayan Fellowship Programme",
+      deadline: "January to February",
+      eligibilty: "Nationals of Bhutan, Nepal, and Sikkim.",
+      content: " Offers scholarships to students from Himalayan countries for pursuing undergraduate and postgraduate studies in India.",
+      url: "https://ficart.org/the-himalayan-fellowship",
+      videoUrl: "https://www.youtube.com/watch?v=RZw682kHA3A&pp=ygUeSGltYWxheWFuIEZlbGxvd3NoaXAgUHJvZ3JhbW1l"
+  },
+  {
+      id : 98, 
+      name: "International Affairs",
+      schemeName: "Rhodes Scholarship Programme",
+      deadline: "June 2024",
+      eligibilty: "Outstanding students with exceptional leadership potential.",
+      content: "Offers scholarships to outstanding students from around the world for pursuing postgraduate studies at the University of Oxford.",
+      url: "https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/",
+      videoUrl: "https://www.youtube.com/watch?v=aOpbJ54ESw4&pp=ygUvcmhvZGVzIHNjaG9sYXJzaGlwIHByb2dyYW1tZSBleHBsYWluZWQgaW4gaGluZGk%3D"
+  },
+  {
+      id : 99, 
+      name: "Startup",
+      schemeName: "Startup India",
+      deadline: "Ongoing scheme",
+      eligibilty: "Startups recognized by DPIIT under the Startup India Action Plan.",
+      content: "The flagship initiative of the Government of India, providing a comprehensive ecosystem for startups including tax benefits, funding support, incubation centers, and regulatory relaxations.",
+      url: "https://www.startupindia.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=i9q2saTQCQA&pp=ygUNU3RhcnR1cCBJbmRpYQ%3D%3D"
+  },
+  {
+      id : 100, 
+      name: "Startup",
+      schemeName: "Atal Innovation Mission (AIM)",
+      deadline: "Varies on program",
+      eligibilty: "Schools, higher education institutions, individuals, and startups.",
+      content: "Promotes innovation and entrepreneurship at the school level through tinkering labs, mentorship programs, and startup challenges.",
+      url: "https://aim.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=lqnpoPyFcTE&pp=ygUdQXRhbCBJbm5vdmF0aW9uIE1pc3Npb24gKEFJTSk%3D"
+  },
+  {
+      id : 101, 
+      name: "Startup",
+      schemeName: "MUDRA Yojana",
+      deadline: "Ongoing",
+      eligibilty: "MSMEs meeting eligibility criteria of the specific loan scheme.",
+      content: "Provides financial assistance to micro, small, and medium enterprises (MSMEs), including startups, through various loan schemes from banks and financial institutions.",
+      url: "https://www.mudra.org.in/",
+      videoUrl: "https://www.youtube.com/watch?v=f2PGCrNGR5s&pp=ygUMTVVEUkEgWW9qYW5h"
+  },
+  {
+      id : 102, 
+      name: "Startup",
+      schemeName: "Stand Up India Scheme",
+      deadline: "Ongoing",
+      eligibilty: "SC/ST entrepreneurs meeting eligibility criteria of the scheme.",
+      content: "Facilitates bank loans to Scheduled Caste (SC) and Scheduled Tribe (ST) entrepreneurs for setting up greenfield enterprises.",
+      url: "https://www.standupmitra.in/",
+      videoUrl: "https://www.youtube.com/watch?v=DWXXgHhYDxk&pp=ygUVU3RhbmQgVXAgSW5kaWEgU2NoZW1l"
+  },
+  {
+      id : 103, 
+      name: "Startup",
+      schemeName: "Start-up Village Entrepreneurship Programme (SVEP)",
+      deadline: "Ongoing",
+      eligibilty: "Startups operating in rural areas meeting scheme criteria.",
+      content: "Start-up Village Entrepreneurship Programme (SVEP), the sub-scheme under the Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM) has the objective of helping rural households including women to set-up enterprises.",
+      url: "https://rural.gov.in/en/press-release/start-village-entrepreneurship-programme-svep",
+      videoUrl: "https://www.youtube.com/watch?v=G2jBD7dc18M&pp=ygUyU3RhcnQtdXAgVmlsbGFnZSBFbnRyZXByZW5ldXJzaGlwIFByb2dyYW1tZSAoU1ZFUCk%3D"
+  },
+  {
+      id : 104, 
+      name: "Startup",
+      schemeName: "Google for Startups India",
+      deadline: "Varies depending on the program",
+      eligibilty: "Early-stage startups in India.",
+      content: " Offers various programs and resources for startups, including workshops, mentorship, cloud credits, and access to Google experts.",
+      url: "https://developers.google.com/startups/",
+      videoUrl: "https://www.youtube.com/watch?v=v47_JPbi6Sw&pp=ygUZR29vZ2xlIGZvciBTdGFydHVwcyBJbmRpYQ%3D%3D"
+  },
+  {
+      id : 105, 
+      name: "Startup",
+      schemeName: "Skill India Mission",
+      deadline: "Ongoing",
+      eligibilty: "Individuals seeking skill development training.",
+      content: "Aims to provide skill development training to youth across India, making them employable and enhancing their entrepreneurial potential.",
+      url: "https://www.skilldevelopment.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=FYnu6N1TJxI&pp=ygUTU2tpbGwgSW5kaWEgTWlzc2lvbg%3D%3D"
+  },
+  {
+      id : 106, 
+      name: "Startup",
+      schemeName: "Startup Intellectual Property Protection Scheme (SIPPS)",
+      deadline: "Ongoing",
+      eligibilty: " Startups recognized by DPIIT under the Startup India Action Plan.",
+      content: "Provides financial assistance to startups for filing and registering patents, trademarks, and copyrights.",
+      url: "https://ipindia.gov.in/SIPP.htm",
+      videoUrl: "https://www.youtube.com/watch?v=ZxkGrfqKXzc&pp=ygU3U3RhcnR1cCBJbnRlbGxlY3R1YWwgUHJvcGVydHkgUHJvdGVjdGlvbiBTY2hlbWUgKFNJUFBTKQ%3D%3D"
+  },
+  {
+      id : 107, 
+      name: "Startup",
+      schemeName: "Self-Employment and Talent Utilisation (SETU) Programme",
+      deadline: "Ongoing",
+      eligibilty: "Members of SHGs with viable business ideas.",
+      content: "Provides financial assistance and mentorship to aspiring entrepreneurs through Self-Help Groups (SHGs).",
+      url: "https://indialends.com/government-schemes/self-employment-talent-utilization-scheme",
+      videoUrl: "https://www.youtube.com/watch?v=C8FakFdXNLY&pp=ygU3U2VsZi1FbXBsb3ltZW50IGFuZCBUYWxlbnQgVXRpbGlzYXRpb24gKFNFVFUpIFByb2dyYW1tZQ%3D%3D"
+  },
+  {
+      id : 108, 
+      name: "Women and Child",
+      schemeName: "Beti Bachao, Beti Padhao",
+      deadline: "Ongoing",
+      eligibilty: "All girls in India",
+      content: "Beti Bachao, Beti Padhao aims to prevent gender-based discrimination and promote girl child education.",
+      url: "https://wcd.nic.in/schemes/beti-bachao-beti-padhao-scheme",
+      videoUrl: "https://www.youtube.com/watch?v=T5e-X202T9o&pp=ygUrYmV0aSBiYWNoYW8gYmV0aSBwYWRoYW8geW9qYW5hIG9ubGluZSBhcHBseQ%3D%3D"
+  },
+  {
+      id : 109, 
+      name: "Women and Child",
+      schemeName: "Sukanya Samriddhi Yojana",
+      deadline: "Ongoing",
+      eligibilty: "Girl child below 10 years old",
+      content: "Sukanya Samriddhi Yojana encourages savings for girl child's future with attractive interest rates.",
+      url: "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
+      videoUrl: "https://www.youtube.com/watch?v=McWpn_J-vj0&pp=ygUYU3VrYW55YSBTYW1yaWRkaGkgWW9qYW5h"
+  },
+  {
+      id : 110, 
+      name: "Women and Child",
+      schemeName: "Pradhan Mantri Matru Vandana Yojana",
+      deadline: "Ongoing",
+      eligibilty: "Pregnant women from BPL families",
+      content: "Pradhan Mantri Matru Vandana Yojana provides cash incentive to pregnant women for improved prenatal and postnatal care.",
+      url: "https://pmmvy.wcd.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=JiSXnE9woYE&pp=ygUjUHJhZGhhbiBNYW50cmkgTWF0cnUgVmFuZGFuYSBZb2phbmE%3D"
+  },
+  {
+      id : 111, 
+      name: "Women and Child",
+      schemeName: "Balika Samridhi Yojana",
+      deadline: "Varies by state",
+      eligibilty: "Girl child between 1-8th standard from BPL families",
+      content: "Balika Samridhi Yojana promotes girl child education by providing financial assistance.",
+      url: "http://wcd.kerala.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=7khu5yLMe34&pp=ygUWQmFsaWthIFNhbXJpZGhpIFlvamFuYQ%3D%3D"
+  },
+  {
+      id : 112, 
+      name: "Women and Child",
+      schemeName: "Ujjwala Yojana",
+      deadline: "Ongoing",
+      eligibilty: "BPL households with women as primary users",
+      content: "Ujjwala Yojana provides free LPG connections to BPL households, empowering women.",
+      url: "https://www.pmuy.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=KZbG98BdieY&pp=ygUOVWpqd2FsYSBZb2phbmE%3D"
+  },
+  {
+      id : 113, 
+      name: "Women and Child",
+      schemeName: "National Scheme of Incentives to Girls for Secondary Education",
+      deadline: "Opens in July",
+      eligibilty: "Girls from SC/ST communities studying in Class 9-12",
+      content: "National Scheme of Incentives to Girls for Secondary Education provides scholarship to encourage girls from SC/ST communities to pursue secondary education.",
+      url: "http://dsel.education.gov.in/nsigse",
+      videoUrl: "https://www.youtube.com/watch?v=OfguXPbgKRI&pp=ygVLTmF0aW9uYWwgU2NoZW1lIG9mIEluY2VudGl2ZXMgdG8gR2lybHMgZm9yIFNlY29uZGFyeSBFZHVjYXRpb24gaG93IHRvIGFwcGx5"
+  },
+  {
+      id : 114, 
+      name: "Women and Child",
+      schemeName: "Poshan Abhiyan",
+      deadline: "Ongoing",
+      eligibilty: "Children, pregnant women, and lactating mothers",
+      content: "Poshan Abhiyan focuses on improving nutritional outcomes for children, pregnant women, and lactating mothers.",
+      url: "https://poshanabhiyaan.gov.in/",
+      videoUrl: "https://www.youtube.com/watch?v=dZo4Xj4tH3M&pp=ygUOUG9zaGFuIEFiaGl5YW4%3D"
+  },
+  {
+      id : 115, 
+      name: "Women and Child",
+      schemeName: "Scheme for Adolescent Girls",
+      deadline: "Ongoing",
+      eligibilty: "Adolescent girls between 11-18 years",
+      content: "Scheme for Adolescent Girls empowers adolescent girls through life skills training, health awareness, and access to opportunities.",
+      url: "https://wcd.nic.in/schemes/scheme-adolescent-girls",
+      videoUrl: "https://www.youtube.com/watch?v=t8mjO6XjFnU&pp=ygUbU2NoZW1lIGZvciBBZG9sZXNjZW50IEdpcmxz"
+  },
+  {
+      id : 116, 
+      name: "Women and Child",
+      schemeName: "Kasturba Gandhi Balika Vidyalaya",
+      deadline: "Ongoing",
+      eligibilty: "Girls from SC, ST, OBC, and minority communities",
+      content: "Kasturba Gandhi Balika Vidyalaya provides residential education and empowerment opportunities for girls from disadvantaged communities.",
+      url: "https://awbi.in/kgbv-recruitment-2024-notification-check-vacancies-apply-online/",
+      videoUrl: "https://www.youtube.com/watch?v=fiFyzQefE6o&pp=ygUgS2FzdHVyYmEgR2FuZGhpIEJhbGlrYSBWaWR5YWxheWE%3D"
+  },
+  {
+      id : 117, 
+      name: "Women and Child",
+      schemeName: "National Creche Scheme",
+      deadline: "Ongoing",
+      eligibilty: "Children of working mothers below 6 years",
+      content: "National Creche Scheme provides daycare facilities for children of working mothers.",
+      url: "https://wcd.nic.in/schemes/national-creche-scheme",
+      videoUrl: "https://www.youtube.com/watch?v=2hukpUTDItw&pp=ygUWTmF0aW9uYWwgQ3JlY2hlIFNjaGVtZQ%3D%3D"
+  },
   ];
   
   export default Details;

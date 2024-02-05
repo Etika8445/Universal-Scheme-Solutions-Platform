@@ -5,23 +5,25 @@ import SponsorCard from '../components/SponsorCard';
 
 function Sponsor() {
   return (
-    <div className='layout-sponser'>
-    <div className='sponsor-header'>
-      <h1>"Empowering Lives, Enabling Change"</h1>
-      <h3>Your generosity fuels the impact at 'Schemes Made Easy.' Together, we're transforming opportunities and changing lives!</h3>
-      <div className='sponsor-cards'>
-        {SponsorCards.map((Card) => {
-            return  (
-            <SponsorCard
-                key={Card.id}
-                imgUrl={Card.imgUrl}
-                url={Card.url}
-            />
-            );
-        })}
+    <><div>
+      <div className='sponsor-header'>
+        {/* <h1> OUR VALUED NGO COLLABORATORS <FavoriteIcon fontSize='large'/></h1> */}
+        <h2>Unlock change with every login! Explore schemes, collaborate with NGOs, and earn daily points to support underprivileged children. Your clicks create impact on 'Schemes Made Easy'!</h2>
+        
       </div>
-    </div>
-    </div>
+      <div className='sponsor-cards'>
+          {SponsorCards.map((Card) => {
+              return  (
+              <SponsorCard
+                  key={Card.id}
+                  imgUrl={Card.imgUrl}
+                  url={Card.url}
+              />
+              );
+          })}
+        </div>
+        </div>
+    </>
   )
 }
 

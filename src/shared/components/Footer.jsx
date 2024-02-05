@@ -29,7 +29,7 @@ function Footer() {
             <p>If you desire to support people through service or make a positive impact through donations, we welcome your commitment to compansion and generosity.</p>
             <p>You can help without providing services or any donations. How!?</p>
             <br></br>
-            <NavLink className='go-footer' activeClassName="active_class" to="/">Click to Know More</NavLink>
+            <NavLink className='go-footer' activeClassName="active_class" to="/sponsor">Click to Know More</NavLink>
         </div>
         <div className='div4-footer'>
             <h2>Categories</h2>
