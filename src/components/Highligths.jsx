@@ -6,7 +6,7 @@ const Highligths = () => {
         <div className='layout-highligths'>
             <div className='sublay-highligths'>
               <div className='head-highligths'>
-                <h1>Heighligts:</h1>
+                <h1>Highligts:</h1>
                 <h2>Explore to bring Sustainable solutions to Life</h2>
               </div>
               <ul>
