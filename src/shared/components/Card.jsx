@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Card(props) {
   return (
     <div className="card">
@@ -20,7 +19,6 @@ function Card(props) {
         </div>
       </div>
       <div className="descp">
-          {/* <a className="btn" href="#">Check Eligibilty</a> */}
           <button className="btn">Know More</button>
         </div>
     </div>

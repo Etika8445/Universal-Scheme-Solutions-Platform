@@ -18,7 +18,6 @@ const Highligths = () => {
                 <a href="https://www.ranthamborenationalpark.com/blog/wildlife-conservation-initiatives-indian-government/"><li>Wildlife Conservation Initiatives by Indian Government</li></a>
               </ul>
             </div>
-
         </div>
     </>
   )

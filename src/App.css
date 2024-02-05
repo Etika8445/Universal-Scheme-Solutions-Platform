@@ -4,36 +4,42 @@
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
 }
-
 /*homecard*/
 .card-homecard{
   background-color: white;
   width:370px;
   height:445px;
-  padding-left: 15px;
-  margin-bottom:20px;
-  margin-right: 15px;
+  /* margin-bottom:20px; */
+  /* margin-right: 15px; */
+  margin:6px;
 }
 .card-homecard:hover{
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
   transition: ease-in-out 0.3s;
 }
 .topic-homecard{
-  margin: 0px;
   margin-top: 10px;
   margin-bottom: 15px;
-  padding-bottom: 0px;
+  margin-left: 4%;
   font-size: 30px;
   font-weight: 900;
 }
+.imgcover-homecard{
+  display: flex;
+  width:100%;
+  height:294px;
+  justify-content: center;
+  align-items: center;
+}
 .img-homecard{
-  padding-top: 0px;
-  width:342px;
-  height:290px;
+  width:91%;
+  height: 100%;
+  object-fit: cover;
 }
 .scheme-homecard{
   display: flex;
   height:20px;
+  margin-left: 4%;
 }
 .p-homecard{
   margin:0px;
@@ -54,8 +60,12 @@
   margin-top:23px;
   border:none;
   background-color: white;
-}
+  margin-left: 4%;
 
+}
+.more-homecard:hover{
+  color: #193aab;
+}
 /* homepage*/
 .banner-homepage{
   width:100%;
@@ -64,39 +74,37 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .slogan-homepage{
-  display: flex;
-  height:100px;
-  width: 700px;
-  justify-content: center;
-  margin: auto;
-  padding-top:90px;
-  flex-wrap: wrap;
-  font-size: 30px;
+  height:100%;
+  width: 100%;
+  text-align: center;
+  padding-top:6%;
+  font-size: 250%;
+  font-weight: 900;
+}
+.second-homepage{
+  font-size: 170%;
+  overflow: auto;
 }
 .head-homepage{
-  font-size: 60px;
+  font-size: 500%;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(242, 243, 243);
-  margin: 0px;
+  text-align: center;
   padding-top:20px;
+  background-color: rgb(242, 243, 243);
   padding-bottom:20px;
-}
-.subhead-homepage{
-  color: rgb(10, 13, 13);
-  background-color: rgb(65, 211, 211);
-  margin-left: 23px;
-  width: 8.3%;
 }
 .layout-homepage{
   display:flex;
   background-color: rgb(242, 243, 243);
-  padding-top: 10px;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 10px;
 }
 
 /* Contact.jsx*/
@@ -119,19 +127,23 @@
 .form-contact label{
   display: flex;
   font-size: 23px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 0.2%;
+  padding-top: 0.2%;
 }
 .form-contact input{
   height: 35px;
   width: 500px;
   font-size: 21px;
+  padding-left: 0.15%;
+  border: 1px solid black;
 }
 .form-contact textarea{
   height: 100px;
   width: 700px;
   font-size: 21px;
   counter-increment: none;
+  padding-left: 0.15%;
+  border: 1px solid black;
 }
 .button-contact{
   background-color: rgb(45,152,152);
@@ -157,7 +169,7 @@
 .sublay-highligths{
   border:2px solid black;
   height:300px;
-  width: 90%;
+  width: 89%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +196,7 @@
 
 /* Feedback.jsx */
 .contain-feedback{
-  height:625px;
+  height:500%;
   width: 100%;
   padding: 3%;
   border-top: 2px solid black;
@@ -202,60 +214,474 @@
 .form-feedback label{
   display: flex;
   font-size: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
 }
 .form-feedback input{
   height: 30px;
   width: 500px;
+  margin-left: 0.1%;
   font-size:21px;
+  padding-left: 0.1%;
+  border: 1px solid black;
 }
 .form-feedback textarea{
   height: 60px;
   width: 500px;
   font-size: 21px;
+  margin-left: 0.1%;
+  padding-left: 0.1%;
+  border: 1px solid black;
 }
 
 /* Ngocard.jsx */
 .card-ngocard{
-  height:400px;
+  height:450px;
   width: 100%;
   display: flex;
+  padding-top: 2%;
   justify-content: center;
-  align-items: center;
   background-color: rgb(45,152,152);
   border-top: 2px solid black;
-  /* border-bottom: 2px solid black; */
 }
 .box-ngocard{
   height:300px;
   width: 700px;
-  margin-left: 30px; 
+  margin-left: 5%; 
+}
+.img-ngocard{
+  height:100%;
+  width: 60%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right:5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-ngocard h1{
+  padding-top: 0px;
 }
 .logo-ngocard{
-  height:300px;
-  width: 700px;
-   object-fit: fill;
-   object-position:-20%;
-   margin-left: 30px;
+  height: 60%;
+  width: 80%;
+  object-fit: fill;
 }
 .top-ngocard{
-  font-size: 30px;
-  margin-left: 5px;
+  font-size: 190%;
+  margin-left: 1%;
   font-weight: 150;
-
 }
 .line-ngocard{
-  margin-top: 25px;
-  font-size: 20px;
+  margin-top: 4%;
+  font-size: 130%;
 }
 .see-ngocard{
-  font-size: 30px;
-  margin-bottom: 30px;
+  font-size: 200%;
+  margin-bottom: 4%;
 }
 .go-ngocard{
-  font-size: 20px;
+  font-size: 150%;
   color: black;
 }
+.go-ngocard:hover{
+  color: #193aab;
+}
+
+/* footer.jsx */
+.box-footer{
+  height:310px;
+  width: 100%;
+  background-color: #273037;
+  color: white;
+}
+.subbox-footer{
+  height: 89%;
+  width: 100%;
+  display:flex;
+}
+.div1-footer{
+    width:22%;
+    padding: 15px;
+    border-right: 1px solid black;
+}
+.div1-footer p{
+  padding-top: 10px;
+  font-size: 130%;
+}
+.email-footer{
+  padding-top: 1.5%;
+  font-size:115%;
+}
+.div2-footer{
+  width:15%;
+  padding: 15px ;
+  border-right: 1px solid black;
+}
+.navhead-footer{
+  height:80%;
+  width:80%;
+  display: block;
+}
+.nav-footer:hover{
+  color: rgb(189, 189, 252);
+}
+.nav-footer{
+  padding-top: 10px;
+  font-size: 150%;
+  color: white;
+}
+.div3-footer{
+  width:45%;
+  padding: 15px ;
+  border-right: 1px solid black;
+}
+.div3-footer p{
+  padding-top: 10px;
+  font-size: 125%;
+}
+.go-footer{
+  color: white;
+}
+.go-footer:hover{
+  color: rgb(189, 189, 252);
+}
+.div4-footer{
+  width:29%;
+  padding: 15px ;
+}
+.low-footer{
+  width:100%;
+  height: 11%;
+  background-color: rgb(29, 28, 28);
+  text-align: center;
+  padding-top: 0.3%;
+  font-size: 125%;
+}
+@media(width<=2560px){
+  .img-ngocard{
+    height: 80%;
+    display: inline;
+  }
+    .logo-ngocard{
+      height: 100%;
+      width:90%;
+      margin-top: 4%;
+    }
+}
+@media (width<=882px){
+  .second-homepage{
+    font-size: 130%; 
+  }
+  .top-ngocard {
+    font-size: 180%;
+  }
+  .see-ngocard{
+    font-size: 170%;
+  }
+  .logo-ngocard{
+    height: 50%;
+  }
+  .email-footer{
+    font-size: 100%;
+  }
+  .slogan-homepage{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .banner-homepage{
+    height: 500%;
+  }
+}
+@media (width<=803px){
+  .div3-footer p{
+    font-size: 100% ;
+  }
+  .layout-highligths ul li{
+    font-size: 100%;
+  }
+  .email-footer{
+    font-size: 90%;
+  }
+  .form-contact textarea{
+    width: 500px;
+
+  }
+}
+@media only screen and (width>=565px) and (width<=764px){
+  .card-homecard{
+    width:45%;
+    height: 100%;
+  }
+  .more-homecard{
+    padding-bottom: 4%;
+  }
+  .head-homepage{
+    font-size: 345%;
+  }
+  .second-homepage{
+    font-size: 140%; 
+  }
+  .topic-homecard{
+    font-size: 130%;
+  }
+  .logo-ngocard{
+    height: 40%;
+    width:110%;
+  }
+}
+@media(width<=768px){
+  .head-homepage{
+    font-size: 300%;
+  }
+}
+@media (width<=690px){
+   .div1-footer{
+    width: 30%;
+   }
+   .div2-footer{
+    width: 20%;
+   }
+   .div3-footer{
+    width: 50%;
+   }
+   .div4-footer{
+    display: none;
+    visibility: hidden;
+   }
+   .second-homepage{
+    font-size: 110%; 
+  }
+  .banner-homepage{
+    height: 100%;
+  }
+  .email-footer{
+    font-size: 100%;
+  }
+  .layout-highligths ul li{
+    font-size: 90%;
+  }
+  .header-contact h1{
+    font-size: 190%;
+  }
+  .head-highligths h2{
+    font-size: 100%;
+  }
+  .header-contact h3{
+    font-size: 90%;
+  }
+  .inquiries-contact{
+    font-size: 100%;
+  }
+  .box-footer{
+    height: 150%;
+  }
+}
+@media (width<=634px){
+  .card-ngocard{
+    height: 100%;
+    padding: 3%;
+  }
+  .img-ngocard{
+    display: none;
+    visibility: hidden;
+  }
+  .box-ngocard{
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+@media (width<=581px){
+  .header-contact h1{
+    font-size: 150%;
+  }
+  .email-footer{
+    font-size: 90%;
+  }
+}
+@media(width<=555px)
+{
+  .form-contact input{
+    width:360px;
+  }
+  .form-contact textarea{
+    width:360px;
+    height:70px;
+
+  }
+  .form-feedback input{
+    width:360px;
+  }
+  .form-feedback textarea{
+    width:360px;
+  }
+  .div2-footer{
+    display: none;
+    visibility: hidden;
+   }
+   .div1-footer{
+    width: 45%;
+   }
+   .div3-footer{
+    width: 60%;
+   }
+   .email-footer{
+    font-size: 120%;
+  }
+  .second-homepage{
+    font-size: 100%; 
+  }
+  .first-homepage{
+    font-size:78%;
+  }
+}
+@media (width<=481px){
+  .header-contact h1{
+    font-size: 120%;
+  }
+  .second-homepage{
+    font-size: 83%; 
+  }
+  .head-highligths h1{
+    font-size: 140%;
+  }
+  .head-highligths h2{
+    font-size: 90%;
+  }
+  .sublay-highligths ul li{
+    font-size: 80%;
+  }
+  .email-footer{
+    font-size: 112%;
+  }
+  .head-homepage{
+    font-size: 250%;
+  }
+}
+@media (width<=426px){
+  .second-homepage{
+    font-size: 80%; 
+  }
+  .subbox-footer{
+    display: inline;
+  }
+  .div1-footer{
+    height: 50%;
+    width:100%;
+  }
+  .div3-footer{
+    height: 45%;
+    width: 100%;
+  }
+  .head-highligths{
+    margin: 0px;
+  }
+  .sublay-highligths{
+    display: inline;
+    height: 90%;
+    padding: 3%;
+  }
+  .layout-highligths{
+    height:300px;
+    padding:3%;
+  }
+}
+@media (width<=406px){
+  .form-contact input{
+    width:300px;
+  }
+  .form-contact textarea{
+    width:300px;
+    height:70px;
+  }
+  .form-feedback input{
+    width:300px;
+  }
+  .form-feedback textarea{
+    width:300px;
+  }
+  .header-contact h1{
+    font-size: 100%;
+  }
+  .header-contact h3{
+    font-size: 75%;
+  }
+  .card-homecard{
+    width:90%;
+  }
+  .topic-homecard{
+    font-size: 160%;
+  }
+  .head-homepage{
+    font-size: 200%;
+  }
+  .header-contact{
+    height: 150px;
+    padding-top: 8%;
+  }
+  .sublay-highligths{
+    height: 95%;
+  }
+}
+@media (width<=373px){
+  .sublay-highligths ul li{
+    font-size: 70%;
+  }
+  .second-homepage{
+    font-size: 70%; 
+  }
+  .first-homepage{
+    font-size: 50%;
+  }
+  .third-homepage{
+    font-size: 50%;
+  }
+}
+@media(width<=353px){
+  .header-contact h1{
+    font-size: 80%;
+  }
+  .form-contact input{
+    width:280px;
+  }
+  .form-contact textarea{
+    width:280px;
+    height:65px;
+  }
+  .form-feedback input{
+    width:280px;
+  }
+  .form-feedback textarea{
+    width:280px;
+  }
+  .second-homepage{
+    font-size: 60%; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -345,21 +771,21 @@ a{
 } */
 
 /* BODY */
-.boby1{
-  padding-bottom: 1000px;
-  border-bottom: 2px solid black;
+.body-head{
+  width: 100%;
+  height: 75%;
+  border-bottom: 1px solid black;
 }
 .body-top{
-  margin-top: 40px;
-  margin-left: 40px;
+  margin:3%;
+  font-size: 200%;
 }
 .title{
   color: rgb(45, 152, 152);
-  text-decoration: solid;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: left;
+  text-align: center;
 }
-.catergories{
+/* .catergories{
   display: flex;
   text-align: left;
   list-style: none;
@@ -382,50 +808,39 @@ a{
   border-radius: 5px;
   color: white;
   transition: ease-in-out 0.3s;
-}
+} */
 
 .cards{
-  margin-top: 130px;
+  margin: 5%;
   display:flex;
-  /* margin-left: 100px; */
   flex-wrap: wrap;
-  /* margin-right: 100px; */
   justify-content:center;
+  align-content: center;
 }
-
 .card{
-  /* flex: 25%; */
   border: 2px solid  rgb(45, 152, 152);
   margin: 20px 20px;
   height: 400px;
-  /* width: 600px; */
   width: 450px;
   padding: 0px;
   padding-bottom: 5px;
   border-radius: 5px;
   position: relative;
 }
-
 .card:hover{
-  /* box-shadow: 10px 5px 5px rgb(225, 220, 220); */
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
   margin-top: 15px;
   transition: ease-in-out 0.3s;
 }
-
 .card-name{
   position: relative;
-  /* background-color: rgb(45, 152, 152); */
   border-radius: 2px;
   color: black;
   text-align: left;
   padding: 10px 10px;
-  
   background-color: rgb(45, 152, 152);
   border-bottom: 2px solid rgb(45, 152, 152);
-  
 }
-
 .card:hover .card-name {
   transition: ease-in-out 0.3s;
   color: white;
@@ -434,8 +849,6 @@ a{
   margin-bottom: 4px;
   transition: ease-in-out 0.3s;
 }
-
-
 .content > h4{
   position: relative;
   color: grey;
@@ -450,21 +863,20 @@ a{
   position: absolute;
   display: flex;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 450px;
   padding-bottom: 20px;
-  /* margin: 0px; */
   bottom: 0;
+  width: 100%;
 }
 .detail{
   display: flex;
-  width: 446px;
+  width: 100%;
   bottom: 70px;
   position: absolute;
   background-color: rgb(213, 253, 253);
   height: 100px;
-  margin-top: 2px;
-  /* margin-bottom: 17px; */
+  margin-top: 3px;
 }
 
 .info {
@@ -519,10 +931,9 @@ a{
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
     transition: ease-in-out 0.3s;
 }
-
 /*FOOTER*/
+/* 
 .footer{
-  /* display: flex; */
   width:100%;
   background-image:url("./shared/components/footer.PNG");
   background-size:100% 100%;
@@ -606,9 +1017,8 @@ a{
   }
   
   .sub-footer{
-  /* background:#1e1e1e; */
   text-align:center;
   font-size:14px;
   color:whitesmoke;
   padding:10px 0px;
-  }
+  } */
