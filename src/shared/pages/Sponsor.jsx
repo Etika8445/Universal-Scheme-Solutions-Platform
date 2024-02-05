@@ -5,6 +5,7 @@ import SponsorCard from '../components/SponsorCard';
 
 function Sponsor() {
   return (
+    <div className='layout-sponser'>
     <div className='sponsor-header'>
       <h1> OUR VALUED NGO PARTNERS <FavoriteIcon fontSize='large'/></h1>
       <h3>Your generosity fuels the impact at 'Schemes Made Easy.' Together, we're transforming opportunities and changing lives!</h3>
@@ -19,6 +20,7 @@ function Sponsor() {
             );
         })}
       </div>
+    </div>
     </div>
   )
 }

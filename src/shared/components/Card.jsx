@@ -19,7 +19,7 @@ function Card(props) {
         </div>
       </div>
       <div className="descp">
-          <button className="btn">Know More</button>
+          <a href={props.url} ><button className="btn">Know More</button></a>
         </div>
     </div>
   )

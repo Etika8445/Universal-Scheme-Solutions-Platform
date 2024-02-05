@@ -32,7 +32,7 @@ function Body() {
               key={Detail.id}
               schemeName={Detail.schemeName}
               deadline={Detail.deadline}
-              eligibilty={Detail.eligibilty}
+              eligibilty={truncate(Detail.eligibilty,45)}
               content={truncate(Detail.content, 300)}
             />
           )})}  

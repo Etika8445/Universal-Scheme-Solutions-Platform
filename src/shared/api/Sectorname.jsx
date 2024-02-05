@@ -32,7 +32,7 @@ const Sectorname=[
     {
         id:6,
         image:"https://t3.ftcdn.net/jpg/04/77/49/08/360_F_477490844_OL8sdlfpM452UgCv1kmyzcuWPErvMxOY.jpg",
-        category:"Defence",
+        category:"Law & Justice",
         schemes:150,
     },
     {

@@ -15,7 +15,7 @@ const Details = [
       name:"Education",
       schemeName: "Pradhan Mantri Poshan Shakti Nirman",
       deadline:"Always open",
-      eligibilty: "children studying in government and government-aided schools",
+      eligibilty: "children studying in government schools",
       content: "Pradhan Mantri Poshan Shakti Nirman (PM POSHAN) earlier known as the National Programme of Mid-Day Meal in Schools is one of the foremost rights based Centrally Sponsored Schemes under the National Food Security Act, 2013 (NFSA). The primary objective of the scheme is to improve the nutritional status of children studying in classes I-VIII in eligible schools. " ,
       url:"https://dsel.education.gov.in/scheme/pm-poshan-scheme" ,
       videoUrl:"https://youtu.be/omSKCfQrpM8?si=xOcURi_8MOk2N_ze"
@@ -65,7 +65,7 @@ const Details = [
       name:"Education",
       schemeName: "Top Class Education For Students With Disabilities",
       deadline:"Always open",
-      eligibilty: "The applicant should be a Student admitted in a full-time course in one of the \"notified institutions\". The Percentage of Disability should be 40% or above. The applicant should be Pursuing a Graduate or Post Graduate Degree or Diploma. The Total Annual Income of the Parent / Guardian should be less than or equal to ₹ 6.00 Lakh per Annum. The applicant MUST NOT be the third sibling in his/her family who is availing of this scholarship.",
+      eligibilty: "Should be a Student admitted in a full-time course in one of the \"notified institutions\". The Percentage of Disability should be 40% or above. The applicant should be Pursuing a Graduate or Post Graduate Degree or Diploma. The Total Annual Income of the Parent / Guardian should be less than or equal to ₹ 6.00 Lakh per Annum. The applicant MUST NOT be the third sibling in his/her family who is availing of this scholarship.",
       content: "A scholarship scheme by DoEPwDs for Students with Disabilities (SwDs) pursuing studies beyond class 12th admitted in a full-time course in one of the 'notified institutions'. The students with the specified disabilities defined in Schedule of the \"Rights of Persons with Disabilities Act, 2016\" will be eligible under this scheme. This includes persons with visual, hearing, speech, loco-motor, mental retardation, and other disabilities." ,
       url:"https://www.indiascienceandtechnology.gov.in/nurturing-minds/scholarships/post-graduation/scholarship-top-class-education-students-disabilities" ,
       videoUrl:"https://www.youtube.com/watch?v=Aqip2CeQHBU"
@@ -125,7 +125,7 @@ const Details = [
       name:"Education",
       schemeName: "JN Tata Endowment Loan Scholarship",
       deadline:"15 March, 2024",
-      eligibilty: "Candidates are not eligible to apply if their undergraduate degree is not from a recognised university in India. The course to which candidates are admitted must be recognized as a Graduate Program (post-graduate in Indian terminology).",
+      eligibilty: "Not eligible to apply if their undergraduate degree is not from a recognised university in India. The course to which candidates are admitted must be recognized as a Graduate Program (post-graduate in Indian terminology).",
       content: "Established in 1892 by Jamsetji Nusserwanjee Tata, the Promoter of the Tata Group, The JN Tata Endowment awards merit-based loan scholarships to students across India for higher studies overseas. Every year, 90 to 100 scholars are selected across disciplines ranging from the sciences (applied, pure, and social) to management, law and commerce and the fine arts." ,
       url:"https://jntataendowment.org/" ,
       videoUrl:"https://youtu.be/aqp0yage7Qs?si=9qvToi4AAon9RgBI"
@@ -385,7 +385,7 @@ const Details = [
     // Tourism
     {
       id: 37,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Chief Minister’s Paryatan Vikas Yojan",
       deadline:"Always open",
       eligibilty: "Direct loan subsidy of ₹5.00 lakh is provided to open Patisserie.Homestays and procure equipment for adventure tourism.",
@@ -395,7 +395,7 @@ const Details = [
     },
     {
       id: 38,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Mukhyamantri Tirth Yatra Yojana ",
       deadline:"Always open",
       eligibilty: "The applicant/spouse must be a resident of the territorial jurisdiction of the NCT of Delhi.The applicant must have completed 60 years of age (As of 1st January of the year in which the Application for availing the Yojana is submitted)",
@@ -405,7 +405,7 @@ const Details = [
     },
     {
       id: 39,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Meghalaya Tourism Development & Investment Promotion",
       deadline:"Always open",
       eligibilty: "Athletes are usually selected based on their performance at the national and international levels. JSW focuses on supporting athletes across disciplines.",
@@ -415,7 +415,7 @@ const Details = [
     },
     {
       id: 40,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Kailash Mansarovar Yatra Scheme",
       deadline:"Always open",
       eligibilty: "The applicant should be a permanent resident of the Haryana State.The applicant/pilgrim should complete the Yatra through the Ministry of External Affairs, Govt. of India and the completion certificate in this regard must be obtained from the Ministry of External Affairs, Govt. of India.",
@@ -425,7 +425,7 @@ const Details = [
     },
     {
       id: 41,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Baristha Nagarika Tirtha Yatra Yojana",
       deadline:"Always open",
       eligibilty: "The applicant has to be a domicile of Odisha.The applicant should have the requisite fitness to undertake the journey and should not be suffering from any communicable disease.",
@@ -435,7 +435,7 @@ const Details = [
     },
     {
       id: 42,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Bed & Breakfast/Homestay Scheme",
       deadline:"Always open",
       eligibilty: "The applicant has to be a domicile of Odisha.The applicant should have the requisite fitness to undertake the journey and should not be suffering from any communicable disease.",
@@ -445,7 +445,7 @@ const Details = [
     },
     {
       id: 43,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Sindhu Dharshan Yatra Scheme",
       deadline:"Always open",
       eligibilty: "The applicant should be a permanent resident of the Haryana State.The applicant/pilgrim should complete the Yatra through the State Govt./Central Govt./Society and the completion certificate in this regard must be submitted by the State/Central Govt./Society.The financial assistance shall be given only once to a pilgrim.",
@@ -455,7 +455,7 @@ const Details = [
     },
     {
       id: 44,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Swaran Jayanti Guru Darshan Yatra Scheme",
       deadline:"Always open",
       eligibilty: "The applicant should be a permanent resident of the Haryana State.The applicant/pilgrim should complete the Yatra through the State Govt./Central Govt./Society and the completion certificate in this regard must be submitted by the State/Central Govt./Society.The financial assistance shall be given only once to a pilgrim.",
@@ -465,7 +465,7 @@ const Details = [
     },
     {
       id: 45,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Promotion And Development Of Tea Tourism Infrastructure In Assam",
       deadline:"Always open",
       eligibilty: "Private Tea Garden companies’ Garden owners can apply.If the tea garden is on a lease, then, the leaseholder can also apply subject to the lease period in hand being a minimum of 15 years from the date of application.Tea Garden company/Garden owner/ lease holder must be willing to undertake a tea tourism scheme.",
@@ -475,7 +475,7 @@ const Details = [
     },
     {
       id: 46,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Concessional Bus Travel Facility to Women above 60 years of age- Punjab",
       deadline:"Always open",
       eligibilty: "All women of 60 years and above residing in the State of Punjab can avail of the benefits under the scheme.",
@@ -485,7 +485,7 @@ const Details = [
     },
     {
       id: 47,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Mukhyamantri Asangathit Karmakar Ijjat Monthly Season Ticket Card Yojana",
       deadline:"Always open",
       eligibilty: "Unorganized workers must be registered with the board.If the Unorganized workers already received benefits from any other similar scheme of the state government, they will not be eligible for the benefits of this scheme.",
@@ -493,6 +493,326 @@ const Details = [
       url:"https://cglabour.nic.in/" ,
       videoUrl:"https://youtu.be/uxBoWZic7po?si=fnCMB0J9LjmY5f5Q"
     },
+    {
+      id:48,
+      name:"Finance",
+      schemeName:"Pradhan Mantri Jeevan Jyoti Bima Yojana",
+      deadline:"Before April",
+      eligibilty:"Age b/w 18 to 50 Years, must hold an individual bank / post office account",
+      content:"Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) is an insurance scheme offering life insurance cover for death due to any reason. It is a one-year cover, renewable from year to year. The scheme is offered by banks/post offices and administered through life insurance companies. All individuals who are account holders of participating banks/ post office in the age group of 18 to 50 years are entitled to join. ",
+      url:"https://www.myscheme.gov.in/schemes/pmjjby",
+      videoUrl:"https://youtu.be/zjviKgcnFLo?si=BviS6HYhq0Fp1GS5"
+    },    
+    {
+      id:49,
+      name:"Finance",
+      schemeName:"Kera Suraksha Insurance Scheme",
+      deadline:"Before March",
+      eligibilty:"should be a Coconut Tree Climber/Neera Technician/Coconut Harvester/Trainee, between 18 to 65 years.",
+      content:"The Kera Suraksha Insurance Scheme’ is a comprehensive Group Personal Accident Insurance Scheme, implemented by the Coconut Development Board, Ministry of Agriculture and Farmers Welfare, Government of India in association with Public Insurance companies for Coconut Tree Climbers/Neera Technicians/Coconut Harvesters.",
+      url:"https://www.myscheme.gov.in/schemes/ksis",
+      videoUrl:"https://youtu.be/k7OtHBxtWn4?si=A7kz2WUcsMCXPous"
+     },
+    {
+      id:50,
+      name:"Finance",
+      schemeName:"Indira Gandhi National Widow Pension Scheme",
+      deadline:"before October",
+      eligibilty:"must be a widow in the age group of 40-79 years",
+      content:"Indira Gandhi National Widow Pension Scheme (IGNWPS) is implemented by Ministry of Rural Development, Government of India. It is a non-contributory pension scheme to provide social security to widows of poor family (BPL)  of the society.",
+      url:"https://www.myscheme.gov.in/schemes/ignwps",
+      videoUrl:"https://youtu.be/-glFjI949wA?si=FO_A_QZ-MUn1fj2I"
+     },
+    {
+      id:51,
+      name:"Finance",
+      schemeName:"Jai Johar (Old Age Pension) Scheme",
+      deadline:"Open in June",
+      eligibilty:"age of 60 years or more, belong to the ST category",
+      content:"Jai Johar (Old Age Pension) is a Social Security Scheme by the Tribal Development Department, Government of West Bengal. The scheme is aimed at the Scheduled Tribe (ST) residents of West Bengal of the age of 60 years and above who do not receive any other pension from any other authority. ",
+      url:"https://www.myscheme.gov.in/schemes/jjoaps",
+      videoUrl:"https://youtu.be/Exl96mKrWTI?si=AD5iiDlZkKsqBJ7X"
+     },
+    {
+      id:52,
+      name:"Finance",
+      schemeName:"Credit Based Schemes For SC",
+      deadline:"Always Open",
+      eligibilty:"students of the Scheduled Caste Category",
+      content:"Education loan scheme by the Ministry of Social justice and Empowerment for Scheduled Caste students pursuing full-time Professional/Technical courses in India or abroad.This scheme is for providing financial assistance in pursuing full-time Professional/Technical courses.",
+      url:"https://www.myscheme.gov.in/schemes/cbssc-els",
+      videoUrl:"https://youtu.be/3ikkPM-gqwI?si=Ioo4eVcWB7rn1sTS"
+     },
+    {
+      id:53,
+      name:"Finance",
+      schemeName:"Amended Technology Upgradation Fund",
+      deadline:"Always Open",
+      eligibilty:"Handloom sector,Silk Sector,Jute Sector.....",
+      content:"The Ministry of Textiles introduced the Amended Technology Upgradation Fund Scheme (ATUFS). This scheme aims to facilitate investment, employment, productivity, quality, and import and export substitution in the textile industry. It also indirectly promotes investments in the manufacturing of machinery for textiles.",
+      url:"https://www.myscheme.gov.in/schemes/atuf",
+      videoUrl:"https://youtu.be/kshTtLs0nyc?si=NfS69-iIwYscV-R_"
+     },
+    {
+      id:54,
+      name:"Finance",
+      schemeName:"Nishaktata Pension Yojana (JBOCWWB)",
+      deadline:"Before June",
+      eligibilty:"permanently disabled,between 18-60 years of age",
+      content:"Nishaktata Pension Yojana (JBOCWWB) is a scheme by the Department of Labour, Employment, Training & Skill Development Govt of Jharkhand.Only the residents/domicile of the state of Jharkhand can apply to this scheme. Applications for this scheme are accepted online through the official website of the department.",
+      url:"https://www.myscheme.gov.in/schemes/npy-jbocwwb",
+      videoUrl:"https://youtu.be/DQ6-RurzEZo?si=QVkUjyi4wdx6Yq4y"
+     },
+    {
+      id:55,
+      name:"Finance",
+      schemeName:"Matrimonial Incentives",
+      deadline:"Always Open",
+      eligibilty:"Permanent resident of Maharashtra State.",
+      content:"The Matrimonial Incentives is a scheme by the Department of Social Justice & Special Assistance, Govt. of Maharashtra. In this scheme, if a Person with Disability (PwD) gets married to a non-disabled person, then the couple is provided a marriage incentive of up to ₹ 50,000.",
+      url:"https://www.myscheme.gov.in/schemes/mi-maha",
+      videoUrl:"https://youtu.be/kZlCfk-mev4?si=1xEgg-NfORcqnb2W"
+     },
+    {
+      id:56,
+      name:"Innovation & Techonolgy",
+      schemeName:"ASEAN-India Research Training Fellowship",
+      deadline:"Always Open",
+      eligibilty:"Must be holding the nationality of any of the ASEAN Member Countries",
+      content:"The “ASEAN-India Research Training Fellowship (AI-RTF)” is a fellowship scheme initiated by the Department of Science & Technology (DST), Government of India. The scheme is launched as an initiative under the ASEAN-India Science & Technology Development Fund (AISTDF) to support young talented researchers/scientists of ASEAN member countries (namely Brunei Darussalam, Cambodia, Indonesia, Lao PDR, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam) to carry out research at any of the Indian research/academic Institution.",
+      url:"https://www.myscheme.gov.in/schemes/ai-rtf",
+      videoUrl:"https://youtu.be/ful7_WRpPRE?si=htMBf8MFJjYkck5J"
+     },
+    {
+      id:57,
+      name:"Innovation & Techonolgy",
+      schemeName:"Swarnajayanti Fellowships Scheme",
+      deadline:"Before March",
+      eligibilty:"should possess a Ph.D. in Science/Engineering/Medicine",
+      content:"The Government of India had instituted a scheme Swarnajayanti Fellowships Scheme to commemorate India's fiftieth year of Independence. Under this scheme, a selected number of young scientists, with a proven track record, are provided special assistance and support to enable them to pursue basic research in frontier areas of science and technology. Scientists selected for the award will be allowed to pursue unfettered research with freedom and flexibility in terms of expenditure as approved in the research plan.",
+      url:"https://www.myscheme.gov.in/schemes/sjfs",
+      videoUrl:"https://youtu.be/iOIFdiSKPBw?si=t87oAnz32fbLvIz5"
+     },
+    {
+      id:58,
+      name:"Innovation & Techonolgy",
+      schemeName:"Visiting Advanced Joint Research Faculty Scheme",
+      deadline:"Before June",
+      content:"Visiting Advanced Joint Research (VAJRA) Faculty Scheme was launched by the Department of Science and Technology, Government of India to bring a strong international connection to the R&D ecosystem of India. The scheme offers adjunct/visiting faculty assignments to overseas scientists, faculty members, and R&D professionals including Non-resident Indians (NRI) and Overseas Citizens of India (OCI) to undertake high-quality collaborative research in publicly funded academic and research Institutions of India.",
+      eligibilty:"Scientists, faculty members, and R&D professionals",
+      url:"https://www.myscheme.gov.in/schemes/vajra",
+      videoUrl:"https://youtu.be/7ff68Vp9F7Y?si=2XJYvUNmZPy6fB08"
+     },
+    {
+      id:59,
+      name:"Innovation & Techonolgy",
+      schemeName:"TEC Internship Scheme",
+      deadline:"Before April",
+      eligibilty:"studying in the 3rd/ 4th year",
+      content:"The TEC Internship Scheme by the Telecommunication Engineering Centre (TEC), Department of Telecommunications, New Delhi intends to engage 25 Interns in order to study/formulate/operationalize/assess various works/projects/policies etc. The internship Programme will allow young talent to be associated with the TEC work for mutual benefit. ",
+      url:"https://www.myscheme.gov.in/schemes/tecis",
+      videoUrl:"https://youtu.be/TBORue5qyjI?si=UGlMnzER90X9TFP0"
+     },
+    {
+      id:60,
+      name:"Innovation & Techonolgy",
+      schemeName:"Ramanujan Fellowship",
+      deadline:"Always Open",
+      eligibilty:"below the age of 40 years",
+      content:"Ramanujan Fellowship is meant for brilliant Indian scientists and engineers from outside India to take up scientific research positions in India, those Indian scientists/engineers who want to return to India from abroad. The fellowship is scientist-specific and very selective.",
+      url:"https://www.myscheme.gov.in/schemes/rf",
+      videoUrl:"https://youtu.be/LF12zt0UI4E?si=vMTKpG_sHo1svB_f"
+     },
+    {
+      id:61,
+      name:"Innovation & Techonolgy",
+      schemeName:"SERB Research Scientist Scheme",
+      deadline:"Open in June",
+      eligibilty:"Completed or nearing completion of the tenure of INSPIRE Faculty of DST or Ramanujan Fellowship of SERB",
+      content:"The INSPIRE Faculty Scheme of the Department of Science and Technology (DST) and the Ramanujan Fellowship Scheme of the Science and Engineering Research Board (SERB) offer opportunities for young scientists to initiate and sustain research careers in various fields of science and engineering. These schemes do not offer an extension of the fellowship after the completion of five years. The support link is broken after the end of the tenure of the respective fellowships.",
+      url:"https://www.myscheme.gov.in/schemes/serbrss",
+      videoUrl:"https://youtu.be/RAxoif1Df1c?si=6Hw_gl2332UX2ZR5"
+     },
+    {
+      id:62,
+      name:"Innovation & Techonolgy",
+      schemeName:"Women Scientist Scheme-A",
+      deadline:"Always Open",
+      eligibilty:"must hold a regular academic/research position",
+      content:"A Research Grant by MoST for female candidates to pursue research in frontier areas of science and engineering, preferably those having a break in career (minimum two years) and not having regular employment, to explore possibility of re-entry into the profession.",
+      url:"https://www.myscheme.gov.in/schemes/wos-a",
+      videoUrl:"https://youtu.be/d6jA1hxPYe0?si=1LA3Jv1ZIMGIyzG2"
+     },
+    {
+      id:63,
+      name:"Innovation & Techonolgy",
+      schemeName:"High Risk - High Reward Research",
+      deadline:"Always Open",
+      eligibilty:"must hold a regular academic/research position",
+      content:"The Scheme High Risk - High Reward Research is implemented by the Science and Engineering Research Board, Department of Science and Technology, Government of India with the aim to support proposals that are conceptually new and risky, and if successful, expected to have a paradigm-shifting influence on the S&T.",
+      url:"https://www.myscheme.gov.in/schemes/hr-hrr",
+      videoUrl:"https://youtu.be/CGLNRDB_zUo?si=9n4qKdy1I5FoOATQ"
+     },
+    {
+      id:64,
+      name:"Law & Justice",
+      schemeName:"Foster Care Scheme (Vatsalaya)",
+      deadline:"Before June",
+      eligibilty:"The child is affected by family breakdown or marital discord",
+      content:"The Foster Care Scheme (Vatsalaya) is being implemented by the Department of Women & Child Development, Government of Goa to provide temporary/substitute care for children in difficult circumstances, whose parents are unable to care for them due to illness, death, and desertion of one parent or any emotional crisis.",
+      url:"https://www.drishtiias.com/daily-updates/daily-news-analysis/ensuring-child-welfare-and-support-mission-vatsalya-scheme",
+      videoUrl:"https://youtu.be/ARx2kYY4U0U?si=vxUkl4qAsQUIpyiP"
+     },
+    {
+      id:65,
+      name:"Law & Justice",
+      schemeName:"SWADHAR Greh",
+      deadline:"Before April",
+      eligibilty:"Women above 18 years of age",
+      content:"The Ministry of Women and Child Development is implementing the Swadhar Greh Scheme which targets the women victims of difficult circumstances who are in need of institutional support for rehabilitation so that they could lead their life with dignity. The Scheme envisages providing shelter, food, clothing and health as well as economic and social security for these women.",
+      url:"https://wcd.nic.in/schemes/swadhar-greh-scheme-women-difficult-circumstances",
+      videoUrl:"https://youtu.be/ZUyWpdxDpM8?si=dOx68IphwCumoeek"
+     },
+    {
+      id:66,
+      name:"Law & Justice",
+      schemeName:"RAKSHAK PURASKARS Award",
+      deadline:"Before March",
+      eligibilty:"The applicant can be a person from any walk of life, whether they are Police Officers, Doctors, Lawyers, Public Prosecutors, Social Workers, Teachers, Tourist Guides, Lifeguards, Bus, Taxi or Auto Drivers, etc.",
+      content:"The Directorate of Women and Child Development, Government of Goa, has instituted the “RAKSHAK PURASKARS” Award. The awards are being conferred from the year 2015 onwards and presented on Independence Day i.e. 15th August. The awards are conferred to two persons every year. ",
+      url:"https://www.mha.gov.in/sites/default/files/2023-01/JeevanRakshaPadakAwards_03082018_0%5B1%5D%5B1%5D_0.pdf",
+      videoUrl:"#"
+     },
+    {
+      id:67,
+      name:"Law & Justice",
+      schemeName:"Goa Village & Municipal Child Committee Grants And Awards Scheme",
+      deadline:"Before June",
+      eligibilty:"should be the concerned local body i.e. a Panchayat or a Municipal local body.",
+      content:"The scheme Goa Village & Municipal Child Committee Grants and Awards Scheme (GVMCCGS) covers all the Village and Municipal Child Committees set up under Rule 7 of The Goa Children's Homes Rules, 2004 by the local bodies as per provisions of the rules.",
+      url:"https://www.myscheme.gov.in/schemes/gvmccgs",
+      videoUrl:"https://youtu.be/tpsKcL9H5us?si=Mpe17I_CI0Fh4iRP"
+     },
+    {
+      id:68,
+      name:"Law & Justice",
+      schemeName:"The Himachal Pradesh Legal Aid Counsel Scheme",
+      deadline:"Always Open",
+      eligibilty:"Who cannot afford the expenses of a legal proceeding, due to financial constraints, irrespective of their caste, religion, gender, or any other factor",
+      content:"The Himachal Pradesh Legal Aid Counsel Scheme, 2003 is a government scheme that aims to provide free legal aid and assistance to the underprivileged and marginalized sections of the society in Himachal Pradesh, a state in northern India. The scheme was introduced by the Himachal Pradesh State Legal Services Authority (HPSLSA) with the objective of ensuring that no citizen is denied justice because of their economic or social status.",
+      url:"https://himachal.nic.in/index1.php?lang=1&dpt_id=240&level=0&linkid=4568&lid=15854",
+      videoUrl:"https://youtu.be/wmWPAkPiVWc?si=knJPIbaAsmizjs_r"
+     },
+    {
+      id:69,
+      name:"Law & Justice",
+      schemeName:"Tripura Lynching/Mob Violence Victim Compensation Scheme",
+      deadline:"Always Open",
+      eligibilty:"The victim should be a resident of Tripura",
+      content:"The “Tripura Lynching/Mob Violence Victim Compensation Scheme” was launched by the Home Department, Government of Tripura on 14th August 2018 for providing fund for the purpose of compensation to the victim or his dependents who have suffered loss or injury as a result of lynching/mob violence and who require rehabilitation.",
+      url:"https://tripura.gov.in/notification-regarding-tripura-lynching-mob-violence-victim-compensation-scheme-2018",
+      videoUrl:"#"
+     },
+    {
+      id:70,
+      name:"Law & Justice",
+      schemeName:"The Meghalaya Victim Compensation Scheme",
+      deadline:"Open in June",
+      eligibilty:"If the offender is not traced or identified, the victim may also apply for a grant of compensation under sub-section (4) of section 357-A of the Act to meet expenses for physical and mental rehabilitation.",
+      content:"The Meghalaya Victim Compensation Scheme, 2022 is a social welfare scheme introduced by the Social Welfare Department, Govt. of Meghalaya. Under this scheme, financial assistance to the victim along with support services such as shelter, counseling, medical aid, legal assistance, education, and vocational training depend upon the needs of the victim.",
+      url:"https://meghalaya.gov.in/schemes/content/43944",
+      videoUrl:"https://youtu.be/i3AY3MV_MGg?si=KpBdlhXPyXbzU0d_"
+     },
+    {
+      id:71,
+      name:"Law & Justice",
+      schemeName:"Assistance under SC/ST Prevention of Atrocities Act",
+      deadline:"Before April",
+      eligibilty:"The applicant should be from a Scheduled Caste.",
+      content:"The scheme “Assistance under SC/ST Prevention of Atrocities Act” was introduced by the Adi Dravidar Welfare Department, Government of Puducherry. The objective of the scheme is to provide immediate relief to the victims of atrocities who are from Scheduled Castes/ Scheduled Tribes.",
+      url:"https://www.youtube.com/live/x0VgOBQC9YU?si=SQSMWBuyWRA1kcXe",
+      videoUrl:"https://socialjustice.gov.in/writereaddata/UploadFile/The%20Scheduled%20Castes%20and%20Scheduled%20Tribes.pdf"
+     },
+    {
+      id:72,
+      name:"Food and Agriculture",
+      schemeName:"India Afghanistan Fellowship",
+      deadline:"Always Open",
+      eligibilty:"For admission in the B.Sc. programme in Agriculture, Horticulture, Forestry and Bachelor of Technology/Biotechnology, the candidate must have passed in 10 +2 examination with Physics, Chemistry and Biology/Mathematics or both.",
+      content:"India-Afghanistan Fellowship Programme started in 2010-11 with 115 fellowships every year for pursuing Master's and Ph.D in Indian Agricultural Universities, to support the agricultural human resource development in Afghanistan through formal education of Afghanistan scientists/faculty and students in India.",
+      url:"https://education.icar.gov.in/indoafricaindoafganistan#:~:text=India%2DAfghanistan%20Fellowship%20Program%20was,through%20formal%20education%20in%20India",
+      videoUrl:"https://youtu.be/DFPn8C874Ug?si=ncvBhRnDtdNbWsXR"
+     },
+    {
+      id:73,
+      name:"Food and Agriculture",
+      schemeName:"Mukhya Mantri Mahila Kisan Sashaktikaran Yojana",
+      deadline:"Before June",
+      eligibilty:"Only women farmers are eligible to apply for the scheme.",
+      content:"Under the MMKSY scheme, women farmers in Gujarat are provided with financial assistance and training to help them enhance their agricultural productivity and income. The scheme aims to provide a holistic approach towards the development of women farmers, including improving their access to inputs, credit, technology, and market.",
+      url:"https://jslps.org/mksp-scheme-mahila-kisan-sashaktikaran-pariyojana-hindi/",
+      videoUrl:"https://youtu.be/eXERS1IzclI?si=GMVuhacow-zkZqkR"
+     },
+    {
+      id:74,
+      name:"Food and Agriculture",
+      schemeName:"Zero Budget Natural Farming",
+      deadline:"Before March",
+      eligibilty:"Interested farmers should be selected for the scheme who have a special interest in natural farming. Every farmer must have a minimum of one-acre land ownership or family account holder.",
+      content:"Zero Budget Natural Farming is natural farming based on cow-products (cow urine, dung) produced by indigenous cows. All agricultural inputs are prepared by the farmer from his own farm, no inputs are purchased from the market. Therefore, he does not have to spend anything directly. Due to which it is called zero budget based farming. At present, reducing the indiscriminate use of chemical fertilizers, pesticides and irrigation.",
+      url:"https://www.fao.org/agroecology/detail/en/c/443712/",
+      videoUrl:"https://youtu.be/65Djs709ZwU?si=D9Ps8ml9HpOvoAdF"
+     },
+    {
+      id:75,
+      name:"Food and Agriculture",
+      schemeName:"Students Ready",
+      deadline:"Always Open",
+      eligibilty:"A student, who is pursuing UG programme in SAUs/DUs/CAU/CUs of NARES in courses duly accredited by the National Agricultural Education Accreditation Board (NAEAB) of ICAR, New Delhi",
+      content:"The Student READY (Rural Entrepreneurship Awareness Development Yojana) program aims to provide rural entrepreneurship awareness, and practical experience in a real-life situation in rural agriculture, and create awareness to undergraduate students about practical agriculture and allied sciences.",
+      url:"https://education.icar.gov.in/Student_Ready",
+      videoUrl:"https://youtu.be/o-pm4PmLY8s?si=bj0iy7qppH-G0bz1"
+     },
+    {
+      id:76,
+      name:"Food and Agriculture",
+      schemeName:"Atma Nirbhar Bagwani Yojana",
+      deadline:"Always Open",
+      eligibilty:"The scheme is focused on the residents and farmers of Arunachal Pradesh.",
+      content:"Atma Nirbhar Bagwani Yojana is an umbrella scheme wherein all the schemes are subsumed under a bank linked credit subsidy scheme which will have a time bound implementation and participation from various stakeholders – Government, Bank, Project Consultants and Progressive Farmers. The beneficiaries under the scheme will be eligible for 45% subsidy from Government of Arunachal Pradesh, 45% bank finance and 10% beneficiaries contribution.",
+      url:"https://lohit.nic.in/scheme/lohit-atmanirbhar-bagwani-yojana-2023-24/",
+      videoUrl:"https://youtu.be/MM4mqMkmoDk?si=5zZZWZ_GxFsWKpRO"
+     },
+    {
+      id:77,
+      name:"Food and Agriculture",
+      schemeName:"YSR Jala Kala",
+      deadline:"Always Open",
+      eligibilty:"The applicant should be a Farmer, The applicant should be a resident of the state of Andhra Pradesh.",
+      content:"The scheme YSR Jala Kala is one of the 'NAVARATNALU' schemes by the Department of Rural Development, Govt. of Andhra Pradesh. In this program, bore wells are drilled free of cost to the needy and eligible farmers in all thirteen districts of the state. NAVARATNALU is a concept coined to improve the delivery systems and improve the living standards of the people, and the quality of the governance in the state.",
+      url:"http://ysrjalakala.ap.gov.in/YSRRB/",
+      videoUrl:"https://youtu.be/Tkl6R8IzXuQ?si=x7TpzzwM3Q5crw3p"
+     },
+    {
+      id:78,
+      name:"Food and Agriculture",
+      schemeName:"Gopal Ratna Award Scheme",
+      deadline:"Always Open",
+      eligibilty:"The applicant should be a dairy farmer.",
+      content:"Gopal Ratna Award Scheme by the Department of Animal Husbandry & Veterinary Services, Govt. of Goa. This scheme was introduced in order to honour the eminent personalities in the field of Dairy Farming. This scheme intends to appreciate the achievement of Dairy Farmers for the highest individual milk production by undertaking scientific Dairy Farming in the State of Goa and encouraging youth to take up the Dairy Business.",
+      url:"https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1979339#:~:text=National%20Gopal%20Ratna%20Award%20is,Company%2FDairy%20farmers%20Producers%20Organizations",
+      videoUrl:"https://youtu.be/c8VnsvqSW30?si=zBQnpzFLjiMm41NO"
+     },
+    {
+      id:79,
+      name:"Food and Agriculture",
+      schemeName:"National Mission on Natural Farming",
+      deadline:"Always Open",
+      eligibilty:"The scheme is applicable to all farmers in India",
+      content:"National Mission on Natural farming aims at creating institutional capacities for documentation and dissemination of best practices, make practicing farmers as partners in promotion strategy, ensure capacity building and continuous handholding and finally attracting farmers to the natural farming willingly on the merit of the system.",
+      url:"https://naturalfarming.dac.gov.in/",
+      videoUrl:"https://youtu.be/gtRYr2VAhuo?si=aIHlpLOBEoNquDCC"
+     },
   ];
   
   export default Details;
