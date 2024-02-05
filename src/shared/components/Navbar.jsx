@@ -13,6 +13,9 @@ const Navbar = () => {
           <NavLink className="headerOption" activeClassName="active_class" to="/scheme">Scheme</NavLink>
           <NavLink className="headerOption" activeClassName="active_class" to="/about">About Us</NavLink>
           <NavLink className="headerOption" activeClassName="active_class" to="/contact">Contact Us</NavLink>
+          <NavLink className="headerOption" activeClassName="active_class" to="/scheme">Scheme</NavLink>
+          <NavLink className="headerOption" activeClassName="active_class" to="/sponsor">Our NGO Partners</NavLink>
+
         </div>
       <div className="header__right">
         {/* <div className="header__search"> 
