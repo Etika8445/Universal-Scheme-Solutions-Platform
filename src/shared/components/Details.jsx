@@ -385,7 +385,7 @@ const Details = [
     // Tourism
     {
       id: 37,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Chief Minister’s Paryatan Vikas Yojan",
       deadline:"Always open",
       eligibilty: "Direct loan subsidy of ₹5.00 lakh is provided to open Patisserie.Homestays and procure equipment for adventure tourism.",
@@ -395,7 +395,7 @@ const Details = [
     },
     {
       id: 38,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Mukhyamantri Tirth Yatra Yojana ",
       deadline:"Always open",
       eligibilty: "The applicant/spouse must be a resident of the territorial jurisdiction of the NCT of Delhi.The applicant must have completed 60 years of age (As of 1st January of the year in which the Application for availing the Yojana is submitted)",
@@ -405,7 +405,7 @@ const Details = [
     },
     {
       id: 39,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Meghalaya Tourism Development & Investment Promotion",
       deadline:"Always open",
       eligibilty: "Athletes are usually selected based on their performance at the national and international levels. JSW focuses on supporting athletes across disciplines.",
@@ -415,7 +415,7 @@ const Details = [
     },
     {
       id: 40,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Kailash Mansarovar Yatra Scheme",
       deadline:"Always open",
       eligibilty: "The applicant should be a permanent resident of the Haryana State.The applicant/pilgrim should complete the Yatra through the Ministry of External Affairs, Govt. of India and the completion certificate in this regard must be obtained from the Ministry of External Affairs, Govt. of India.",
@@ -425,7 +425,7 @@ const Details = [
     },
     {
       id: 41,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Baristha Nagarika Tirtha Yatra Yojana",
       deadline:"Always open",
       eligibilty: "The applicant has to be a domicile of Odisha.The applicant should have the requisite fitness to undertake the journey and should not be suffering from any communicable disease.",
@@ -435,7 +435,7 @@ const Details = [
     },
     {
       id: 42,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Bed & Breakfast/Homestay Scheme",
       deadline:"Always open",
       eligibilty: "The applicant has to be a domicile of Odisha.The applicant should have the requisite fitness to undertake the journey and should not be suffering from any communicable disease.",
@@ -445,7 +445,7 @@ const Details = [
     },
     {
       id: 43,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Sindhu Dharshan Yatra Scheme",
       deadline:"Always open",
       eligibilty: "The applicant should be a permanent resident of the Haryana State.The applicant/pilgrim should complete the Yatra through the State Govt./Central Govt./Society and the completion certificate in this regard must be submitted by the State/Central Govt./Society.The financial assistance shall be given only once to a pilgrim.",
@@ -455,7 +455,7 @@ const Details = [
     },
     {
       id: 44,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Swaran Jayanti Guru Darshan Yatra Scheme",
       deadline:"Always open",
       eligibilty: "The applicant should be a permanent resident of the Haryana State.The applicant/pilgrim should complete the Yatra through the State Govt./Central Govt./Society and the completion certificate in this regard must be submitted by the State/Central Govt./Society.The financial assistance shall be given only once to a pilgrim.",
@@ -465,7 +465,7 @@ const Details = [
     },
     {
       id: 45,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Promotion And Development Of Tea Tourism Infrastructure In Assam",
       deadline:"Always open",
       eligibilty: "Private Tea Garden companies’ Garden owners can apply.If the tea garden is on a lease, then, the leaseholder can also apply subject to the lease period in hand being a minimum of 15 years from the date of application.Tea Garden company/Garden owner/ lease holder must be willing to undertake a tea tourism scheme.",
@@ -475,7 +475,7 @@ const Details = [
     },
     {
       id: 46,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Concessional Bus Travel Facility to Women above 60 years of age- Punjab",
       deadline:"Always open",
       eligibilty: "All women of 60 years and above residing in the State of Punjab can avail of the benefits under the scheme.",
@@ -485,7 +485,7 @@ const Details = [
     },
     {
       id: 47,
-      name:"Sports",
+      name:"Tourism",
       schemeName: "Mukhyamantri Asangathit Karmakar Ijjat Monthly Season Ticket Card Yojana",
       deadline:"Always open",
       eligibilty: "Unorganized workers must be registered with the board.If the Unorganized workers already received benefits from any other similar scheme of the state government, they will not be eligible for the benefits of this scheme.",
