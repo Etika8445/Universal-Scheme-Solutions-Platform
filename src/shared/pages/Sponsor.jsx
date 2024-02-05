@@ -5,11 +5,13 @@ import SponsorCard from '../components/SponsorCard';
 
 function Sponsor() {
   return (
-    <>
+    <><div>
       <div className='sponsor-header'>
-        <h1> OUR VALUED NGO COLLABORATORS <FavoriteIcon fontSize='large'/></h1>
-        <h3>Together, we're transforming opportunities and changing lives!</h3>
-        <div className='sponsor-cards'>
+        {/* <h1> OUR VALUED NGO COLLABORATORS <FavoriteIcon fontSize='large'/></h1> */}
+        <h2>Unlock change with every login! Explore schemes, collaborate with NGOs, and earn daily points to support underprivileged children. Your clicks create impact on 'Schemes Made Easy'!</h2>
+        
+      </div>
+      <div className='sponsor-cards'>
           {SponsorCards.map((Card) => {
               return  (
               <SponsorCard
@@ -20,7 +22,7 @@ function Sponsor() {
               );
           })}
         </div>
-      </div>
+        </div>
     </>
   )
 }
