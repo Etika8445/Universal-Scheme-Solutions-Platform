@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from "./logo.jpg"
-import SearchIcon from '@mui/icons-material/Search';
+// import SearchIcon from '@mui/icons-material/Search';
 
 const Navbar = () => {
   return (
@@ -18,10 +18,10 @@ const Navbar = () => {
 
         </div>
       <div className="header__right">
-        <div className="header__search"> 
+        {/* <div className="header__search"> 
           <SearchIcon />
           <input type="text" placeholder="Search" className='search-input'/>
-        </div> 
+        </div>  */}
       </div>
       </div>
     </>

@@ -10,10 +10,10 @@ const Ngocard = () => {
                 <p className='top-ngocard'>Join Schemes Made Easy's Journey with Purpose</p>
                 <p className='line-ngocard'>If you desire to support people through service or make a positive impact through donations, we welcome your commitment to compansion and generosity.</p>
                 <br></br>
-                <p className='see-ngocard'>You can help without providing services or any donations.How!?</p>
+                <p className='see-ngocard'>You can help without providing services or any donations. How!?</p>
                 <NavLink className='go-ngocard' activeClassName="active_class" to="/">Click to Know More</NavLink>
             </div>
-            <div >
+            <div className='img-ngocard' >
                 <img className='logo-ngocard' src={logo} alt='logo'/>
             </div>
         </div>
