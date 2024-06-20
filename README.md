@@ -2,6 +2,8 @@
 
 Welcome to the Universal Scheme Solutions Platform! This web application consolidates government and private schemes into one platform, offering users easy access to a variety of schemes across more than 10 categories, including education, health, technology, and food safety.
 
+![Universal Scheme Solutions Platform Web Application](schemes.png)
+
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
